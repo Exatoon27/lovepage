@@ -18,7 +18,7 @@ const hexLetters = "0123456789ABCDEF";
 function getColor(){
  let color = "#";
  for (let i = 0; i < 6; i++) {
-  color += hexLetters[Math.floor(Math.random() * 16];
+  color += hexLetters[Math.floor(Math.random() * 16)];
  }
  const r = parseInt(color.slice(1, 3), 16);
  const g = parseInt(color.slice(3, 5), 16);
